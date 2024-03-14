@@ -1,5 +1,5 @@
-# todo-project-images
+# toDo-project-images
 
-![Home Page](/Images/HomePageToDo2.PNG)
+![Home Page](/Images/HomePageToDo.PNG)
 
 ![About Page](/Images/AboutPageToDo.PNG)
