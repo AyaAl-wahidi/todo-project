@@ -1,4 +1,4 @@
-# toDo-project-images
+# ToDo-Project-Images
 
 ![Home Page](/Images/HomePageToDo.PNG)
 
