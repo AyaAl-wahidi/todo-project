@@ -1,7 +1,7 @@
 var promptNameResult = prompt("Enter your name")
 if (promptNameResult) {
 
-    var promptGenderResult = prompt("Enter your gender").toLocaleLowerCase();
+    var promptGenderResult = prompt("Enter your gender").toLowerCase();
 
     if (promptGenderResult != "male" && promptGenderResult != "female") {
         alert("Please enter valid gender");
