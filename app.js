@@ -1,6 +1,5 @@
 'use strict'
 
-
 var answers = [];
 
 function userInformation() {
