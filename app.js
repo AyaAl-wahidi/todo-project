@@ -33,18 +33,17 @@ function userInformation() {
     } else {
     }
 }
-// we should check if yes or no
-// we should exait when click cancel
+
 function yesOrNoQustions() {
     let questions = ["Q1 : Do you love coding? Yes or No", "Q2 : Do you think it's easy? Yes or No", "Q3 : Do you want to be pro? Yes or no"];
     let result;
-    for (let questionArrayValue = 0 ; questionArrayValue < questions.length ; questionArrayValue++) {
+    for (let questionArrayValue = 0; questionArrayValue < questions.length; questionArrayValue++) {
         result = prompt(questions[questionArrayValue]);
-        while (!result) {
+        while (result == "") {
             if (!result) {
                 alert("Not valid!");
             }
-            result = prompt(questions[i]);
+            result = prompt(questions[questionArrayValue]);
         }
         answers.push(result);
     }
