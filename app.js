@@ -37,7 +37,7 @@ function userInformation() {
 function yesOrNoQustions() {
     let questions = ["Q1 : Do you love coding? Yes or No", "Q2 : Do you think it's easy? Yes or No", "Q3 : Do you want to be pro? Yes or no"];
     let result;
-    for (let questionArrayValue = 0 ; questionArrayValue < questions.length ; questionArrayValue++) {
+    for (let questionArrayValue = 0; questionArrayValue < questions.length; questionArrayValue++) {
         result = prompt(questions[questionArrayValue]);
         while (result == "") {
             if (!result) {
